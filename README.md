@@ -1,5 +1,5 @@
 # fastaselect
-Find sequences from a large fasta file by names，length and keywords
+Find sequences from a large fasta file by names，length and keywords  
 usage: fastaselect.py [-h] -o OUTPUT -i INPUT [-k KEYWORD] [-n NAME] [-m MIN]
 
 Extract fasta sequence
