@@ -31,7 +31,7 @@ seq1
 seq2  
 seq3  
 seq4  
-######################################################################################
+######################################################################################  
 Please note that the file path is differenc in windows and linux:  
 Windows: C:\\your\\file\\path\\file.fasta  
 Linux: /home/your/file/path/file.fasta  
