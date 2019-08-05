@@ -10,9 +10,7 @@ optional arguments:
                         The output file  
   -i INPUT, --input INPUT  
                         The input file  
-  -k KEYWORD, --keyword KEYWORD  
-                        Find special sequence compliance with your matching
-                        rules  
+  -k KEYWORD, --keyword KEYWORD   Find special sequence compliance with your matching rules  
   -n NAME, --name NAME  A file contain the sequence name you want to extract  
   -m MIN, --min MIN     Minimum length  
   
