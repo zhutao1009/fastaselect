@@ -15,21 +15,21 @@ optional arguments:
                         rules
   -n NAME, --name NAME  A file contain the sequence name you want to extract
   -m MIN, --min MIN     Minimum length
+  
+Example:  
+Find sequence longer than 500bp  
+fastaselect.py -o output.fasta -i input.fasta -m 500  
+  
+Find sequence by keywords or regular expression  
+fastaselect.py -o output.fasta -i input.fasta -k ^\w.*\d  
 
-Example：
-Find sequence longer than 500bp
-fastaselect.py -o output.fasta -i input.fasta -m 500
-
-Find sequence by keywords or regular expression
-fastaselect.py -o output.fasta -i input.fasta -k ^\w.*\d
-
-Find squence by sequence name
-fastaselect.py -o output.fasta -i input.fasta -n name.txt
-
-$cat name.txt
-seq1\n
-seq2\n
-seq3\n
-seq4\n
-
+Find squence by sequence name  
+fastaselect.py -o output.fasta -i input.fasta -n name.txt  
+  
+$cat name.txt  
+seq1\n  
+seq2\n  
+seq3\n  
+seq4\n  
+  
 zhutao@cau.edu.cn for help
