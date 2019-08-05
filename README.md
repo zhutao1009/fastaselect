@@ -27,9 +27,9 @@ Find squence by sequence name
 fastaselect.py -o output.fasta -i input.fasta -n name.txt
 
 $cat name.txt
-seq1
-seq2
-seq3
-seq4
+seq1\n
+seq2\n
+seq3\n
+seq4\n
 
 zhutao@cau.edu.cn for help
