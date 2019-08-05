@@ -33,7 +33,7 @@ seq3
 seq4  
 ######################################################################################  
 Please note that the file path is differenc in windows and linux:  
-Windows: C:\\your\\file\\path\\file.fasta  
+Windows: C:\\\\your\\\\file\\\\path\\\\file.fasta  
 Linux: /home/your/file/path/file.fasta  
 zhutao@cau.edu.cn for help  
 #######################################################################################
