@@ -22,7 +22,8 @@ def readfasta(input):
 		for line in f:
 			line = line.strip()
 			if line[0] == '>':
-				header = line[1:]
+				h = line[1:].split(" ")
+				header=h[0]
 			else:
 				sequence = line
 				fasta[header] = fasta.get(header,'') + sequence
